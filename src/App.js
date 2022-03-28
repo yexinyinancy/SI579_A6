@@ -104,6 +104,9 @@ function App() {
   return (
     <div>
       <main className="container">
+      <div className="row">
+            <div className="col"><a href='https://github.com/yexinyinancy/SI579_A6'>Source code</a></div>
+        </div>
         <h1 className="row">React Rhyme Finder (579 Problem Set 6)</h1>
         <div className="row">
             <div className="col">Saved words: <span>{saved.length ? saved.join(', ') : '(none)'}</span></div>
